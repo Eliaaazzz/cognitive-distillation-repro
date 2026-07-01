@@ -1,0 +1,5 @@
+# Extra requirements for the real CIFAR pipeline (examples/run_cifar.py).
+# A CUDA GPU is recommended.
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23

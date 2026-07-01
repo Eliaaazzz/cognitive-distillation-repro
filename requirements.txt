@@ -1,0 +1,2 @@
+# Core (NumPy-only) requirements -- enough to run the numpy_smoke demo + tests.
+numpy>=1.23
