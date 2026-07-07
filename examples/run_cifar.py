@@ -9,7 +9,13 @@ Pipeline:
     python examples/run_cifar.py --checkpoint model.pt
 """
 import argparse
+import os
+import sys
+
 import numpy as np
+
+# Allow running as a plain script by putting the repo root on the path.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 def main() -> None:

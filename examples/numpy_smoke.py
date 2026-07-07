@@ -2,6 +2,13 @@
 
     python examples/numpy_smoke.py
 """
+import os
+import sys
+
+# Allow running as a plain script (python examples/numpy_smoke.py) by putting
+# the repo root on the path, not just `python -m`.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from cogdistill.numpy_ref import run_smoke
 
 
